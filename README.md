@@ -1,6 +1,9 @@
 # WSL_NVIM
 Using NVIM on WSL-Debian
 
+![WSL_Rice_2](https://github.com/miscellaneous-mice/WSL_NVIM/assets/79500624/1aca77dc-9e0d-46c0-8bfa-228d701e9a31)
+
+
 ## Installtion of WSL
 - Follow these steps on powershell/command prompt
 ```
@@ -62,6 +65,10 @@ $ source ~/.zshrc
 $ sudo apt-get install tmux
 ```
 - You can find the shortcuts of TMUX [here](https://www.redhat.com/sysadmin/introduction-tmux-linux)
+- Optional programs if you wanna show off the hacker terminal.
+  - To use Colorscripts follow this [guide](https://gitlab.com/dwt1/shell-color-scripts)
+  - To use Pipes.sh follow this [guide](https://github.com/pipeseroni/pipes.sh#contents)
+  - To use unimatrix follow this [guide](https://github.com/will8211/unimatrix)
 
 ## Installtion of neovim and turning into a ide
 - First git clone the repo. Installtion guide is give [here](https://github.com/neovim/neovim/blob/master/INSTALL.md#install-from-source)
