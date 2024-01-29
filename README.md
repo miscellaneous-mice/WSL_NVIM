@@ -88,7 +88,7 @@ $ git clone https://github.com/miscellaneous-mice/WSL_NVIM.git && cd WSL_NVIM
 $ cp .tmux.conf ~/
 $ tmux source ~/.tmux.conf
 ```
-- Install the plugins from tpm using this shortcut ```prefix + alt + u```
+- Install the plugins from tpm using this shortcut ```prefix + I``` (Prefix for default is ```CTRL + b```)
 - You can find the shortcuts of TMUX [here](https://www.redhat.com/sysadmin/introduction-tmux-linux)
 
 ## Installtion of neovim and turning into a ide
