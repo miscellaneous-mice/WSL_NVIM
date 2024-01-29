@@ -111,7 +111,7 @@ $ npm -v
 ```
 $ mkdir ~/Backup
 $ mv ~/.config/nvim ~/Backup
-$ git clone https://github.com/miscellaneous-mice/WSL_NVIM.git
+$ git clone https://github.com/miscellaneous-mice/WSL_NVIM.git && cd WSL_NVIM
 $ cp -r nvim ~/.config/
 ```
 - Some extra commands to get the neovim working. Inside Neovim
