@@ -72,8 +72,8 @@ $ sudo apt-get install libevent-dev ncurses-dev build-essential bison pkg-config
 - Install TMUX zip using from [here](https://github.com/tmux/tmux/releases)
 - Build from source. Instructions give [here](https://github.com/tmux/tmux/wiki/Installing)
 ```
-$ tar -zxf tmux-ver*.tar.gz
-$ cd tmux-ver*/
+$ tar -zxf tmux-*.tar.gz
+$ cd tmux-*/
 $ ./configure
 $ make && sudo make install
 ```
