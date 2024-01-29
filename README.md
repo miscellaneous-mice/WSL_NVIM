@@ -71,6 +71,7 @@ $ sudo apt-get install tmux
   - To use unimatrix follow this [guide](https://github.com/will8211/unimatrix)
 
 ## Installtion of neovim and turning into a ide
+- This installation guide is for C++ & python. If you want others you can follow this [tutorials for beginners](https://www.youtube.com/playlist?list=PLsz00TDipIffreIaUNk64KxTIkQaGguqn)
 - First git clone the repo. Installtion guide is give [here](https://github.com/neovim/neovim/blob/master/INSTALL.md#install-from-source)
 ```
 $ sudo apt-get install gettext libtool libtool-bin autoconf automake pkg-config doxygen
@@ -126,5 +127,4 @@ $ cp -r nvim ~/.config/
   - lua-language-server
   - mypy
   - pyright
-  - prettier
   - black
