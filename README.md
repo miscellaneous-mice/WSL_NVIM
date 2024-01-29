@@ -128,3 +128,4 @@ $ cp -r nvim ~/.config/
   - mypy
   - pyright
   - black
+- Credits : https://github.com/cpow/neovim-for-newbs/tree/main
