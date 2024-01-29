@@ -60,15 +60,36 @@ $ source ~/.zshrc
   - In Windows settings -> Personalization -> Fonts -> Browse and Install Fonts -> Select all the fonts in the unzipped folder
 - Change the color of windows terminal -> Settings -> Defaults -> Appearance -> Colorscheme -> One Half Dark
 - Change the font of windows terminal -> Settings -> Defaults -> Appearance -> Font Face -> Select Mononoki Nerd font (Select the "Font weight" : Bold)
-- Install TMUX inside WSL
-```
-$ sudo apt-get install tmux
-```
-- You can find the shortcuts of TMUX [here](https://www.redhat.com/sysadmin/introduction-tmux-linux)
 - Optional programs if you wanna show off the hacker terminal.
   - To use Colorscripts follow this [guide](https://gitlab.com/dwt1/shell-color-scripts)
   - To use Pipes.sh follow this [guide](https://github.com/pipeseroni/pipes.sh#contents)
   - To use unimatrix follow this [guide](https://github.com/will8211/unimatrix)
+
+## Using TMUX
+- Install TMUX dependencies
+```
+$ sudo apt-get install libevent-dev ncurses-dev build-essential bison pkg-config
+```
+- Install TMUX zip using from [here](https://github.com/tmux/tmux/releases)
+- Build from source. Instructions give [here](https://github.com/tmux/tmux/wiki/Installing)
+```
+$ tar -zxf tmux-ver*.tar.gz
+$ cd tmux-ver*/
+$ ./configure
+$ make && sudo make install
+```
+- Install TPM for managing plugins
+```
+$ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+- Copy the tpm configuration
+```
+$ git clone https://github.com/miscellaneous-mice/WSL_NVIM.git && cd WSL_NVIM
+$ cp .tmux.conf ~/
+$ tmux source ~/.tmux.conf
+```
+- Install the plugins from tpm using this shortcut ```prefix I``` (Prefix for default is ```CTRL + b```)
+- You can find the shortcuts of TMUX [here](https://www.redhat.com/sysadmin/introduction-tmux-linux)
 
 ## Installtion of neovim and turning into a ide
 - This installation guide is for C++ & python. If you want others you can follow this [tutorials for beginners](https://www.youtube.com/playlist?list=PLsz00TDipIffreIaUNk64KxTIkQaGguqn)
