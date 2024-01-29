@@ -55,7 +55,13 @@ $ source ~/.zshrc
 - Install the Mononoki nerd font
   - Download using this [link](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/Mononoki.zip). Then unzip this fonts folder
   - In Windows settings -> Personalization -> Fonts -> Browse and Install Fonts -> Select all the fonts in the unzipped folder
-- First in windows terminal -> Settings -> Defaults -> Appearance -> 
+- Change the color of windows terminal -> Settings -> Defaults -> Appearance -> Colorscheme -> One Half Dark
+- Change the font of windows terminal -> Settings -> Defaults -> Appearance -> Font Face -> Select Mononoki Nerd font (Select the "Font weight" : Bold)
+- Install TMUX inside WSL
+```
+$ sudo apt-get install tmux
+```
+  - You can find the shortcuts of TMUX [here](https://www.redhat.com/sysadmin/introduction-tmux-linux)
 
 ## Installtion of neovim and turning into a ide
 - First git clone the repo. Installtion guide is give [here](https://github.com/neovim/neovim/blob/master/INSTALL.md#install-from-source)
