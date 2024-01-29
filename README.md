@@ -8,10 +8,21 @@ Using NVIM on WSL-Debian
 ```
 - Download this [distro](https://apps.microsoft.com/detail/9MSVKQC78PK6?hl=en-US&gl=US)
 
+## Installation of basic-utils
+```
+$ sudo apt update && sudo apt upgrade -y
+$ sudo apt-get dist-upgrade
+$ sudo apt-get install xz-utils unzip thunar
+$ sudo apt-get install ninja-build build-essential cmake g++ gcc
+$ sudo apt-get install wget curl git
+$ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+$ sudo dpkg -i google-chrome-stable_current_amd64.deb
+```
+
 ## Using ZSH
 - Install zsh and dependencies
 ```
-$ sudo apt-get install zsh wget
+$ sudo apt-get install zsh
 ```
 - we need to make it our default shell
 ```
@@ -40,14 +51,10 @@ $ source ~/.zshrc
 ```
 - [Installtion guide](https://computingforgeeks.com/how-to-install-and-configure-zsh-shell-on-linux/?expand_article=1)
 
-## Installation of browser
-```
-$ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-```
-
 ## Installtion of neovim and turning into a ide
 - First git clone the repo. Installtion guide is give [here](https://github.com/neovim/neovim/blob/master/INSTALL.md#install-from-source)
 ```
+$ sudo apt-get install gettext libtool libtool-bin autoconf automake pkg-config doxygen
 $ git clone https://github.com/neovim/neovim.git
 $ cd neovim
 $ make CMAKE_BUILD_TYPE=RelWithDebInfo
