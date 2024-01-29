@@ -115,5 +115,16 @@ $ cp -r nvim ~/.config/
 ```
 - Some extra commands to get the neovim working. Inside Neovim
 ```
+:TSUpdate
 :Mason
 ```
+- Install all these LSP's, Linter's & Formatters inside neovim using ```:MasonInstall package_name```
+  - stylua
+  - clangd
+  - clang-format
+  - cpplint
+  - lua-language-server
+  - mypy
+  - pyright
+  - prettier
+  - black
