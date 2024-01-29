@@ -61,7 +61,7 @@ $ source ~/.zshrc
 ```
 $ sudo apt-get install tmux
 ```
-  - You can find the shortcuts of TMUX [here](https://www.redhat.com/sysadmin/introduction-tmux-linux)
+- You can find the shortcuts of TMUX [here](https://www.redhat.com/sysadmin/introduction-tmux-linux)
 
 ## Installtion of neovim and turning into a ide
 - First git clone the repo. Installtion guide is give [here](https://github.com/neovim/neovim/blob/master/INSTALL.md#install-from-source)
