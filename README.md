@@ -1,7 +1,7 @@
 # WSL_NVIM
 Using NVIM on WSL-Debian
 
-![WSL_RICE_1](https://github.com/miscellaneous-mice/WSL_NVIM/assets/79500624/70a3a32d-6729-4170-a578-54f73a211de0)
+![WSL_Rice_0](https://github.com/miscellaneous-mice/WSL_NVIM/assets/79500624/acc12c67-d56a-40f7-8ab3-9f65dd466e7d)
 
 ## Installtion of WSL
 - Follow these steps on powershell/command prompt
