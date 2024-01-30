@@ -1,8 +1,7 @@
 # WSL_NVIM
 Using NVIM on WSL-Debian
 
-![WSL_Rice_2](https://github.com/miscellaneous-mice/WSL_NVIM/assets/79500624/1aca77dc-9e0d-46c0-8bfa-228d701e9a31)
-
+![WSL_Rice_0](https://github.com/miscellaneous-mice/WSL_NVIM/assets/79500624/acc12c67-d56a-40f7-8ab3-9f65dd466e7d)
 
 ## Installtion of WSL
 - Follow these steps on powershell/command prompt
@@ -73,8 +72,8 @@ $ sudo apt-get install libevent-dev ncurses-dev build-essential bison pkg-config
 - Install TMUX zip using from [here](https://github.com/tmux/tmux/releases)
 - Build from source. Instructions give [here](https://github.com/tmux/tmux/wiki/Installing)
 ```
-$ tar -zxf tmux-ver*.tar.gz
-$ cd tmux-ver*/
+$ tar -zxf tmux-*.tar.gz
+$ cd tmux-*/
 $ ./configure
 $ make && sudo make install
 ```
@@ -134,6 +133,11 @@ $ mkdir ~/Backup
 $ mv ~/.config/nvim ~/Backup
 $ git clone https://github.com/miscellaneous-mice/WSL_NVIM.git && cd WSL_NVIM
 $ cp -r nvim ~/.config/
+```
+- Source the init.lua file
+```
+$ vim ~/.config/nvim/init.lua
+:source %
 ```
 - Some extra commands to get the neovim working. Inside Neovim
 ```
