@@ -14,7 +14,7 @@ Using NVIM on WSL-Debian
 ```
 $ sudo apt update && sudo apt upgrade -y
 $ sudo apt-get dist-upgrade
-$ sudo apt-get install xz-utils unzip thunar
+$ sudo apt-get install xz-utils unzip
 $ sudo apt-get install ninja-build build-essential cmake g++ gcc
 $ sudo apt-get install wget curl git
 $ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
