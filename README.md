@@ -14,7 +14,7 @@ Using NVIM on WSL-Debian
 ```
 $ sudo apt update && sudo apt upgrade -y
 $ sudo apt-get dist-upgrade
-$ sudo apt-get install xz-utils unzip thunar
+$ sudo apt-get install xz-utils unzip
 $ sudo apt-get install ninja-build build-essential cmake g++ gcc
 $ sudo apt-get install wget curl git
 $ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
@@ -90,7 +90,7 @@ $ tmux source ~/.tmux.conf
 - Install the plugins from tpm using this shortcut ```prefix I``` (Prefix for default is ```CTRL + b```)
 - You can find the shortcuts of TMUX [here](https://www.redhat.com/sysadmin/introduction-tmux-linux)
 
-## Installtion of neovim and turning into a ide
+## Installation of neovim and turning into a ide
 - This installation guide is for C++ & python. If you want others you can follow this [tutorials for beginners](https://www.youtube.com/playlist?list=PLsz00TDipIffreIaUNk64KxTIkQaGguqn)
 - First git clone the repo. Installtion guide is give [here](https://github.com/neovim/neovim/blob/master/INSTALL.md#install-from-source)
 ```
