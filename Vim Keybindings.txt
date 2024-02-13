@@ -1,0 +1,146 @@
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+VIM KEYBINDINGS (https://vim.rtorr.com/)
+_______________
+
+Traversal
+_________
+
+- j(Down) / k(Up) / h(Left) / l(Right)
+- e (Jump to end of word) / b (Jump to start of the word)
+- $ (Jump to end of line)
+- gg (Jump to start of the file) / G(Jump to end of the file)
+
+
+Insert New line
+_______________
+
+- Space Enter
+
+
+Deleting 
+________
+
+- Single line
+	- dd
+	- (number of lines) dd
+
+- Multiple Lines
+	- v
+	- j/k/l/h (Select the text)
+	- x
+
+
+Selection using visual mode
+___________________________
+
+- To select all the text
+	- v 
+	- j/k/l/h (Select the text)
+
+- To select only start of text
+	- ctrl + v
+	- j/k/l/h (Select the text from start)
+
+
+Inserting Tab 
+_____________
+
+- Single Line
+	- >>
+	- (number of lines) >>
+
+- Multiple Lines
+	- v
+	- j/k/l/h (Select the text)
+	- shift + i
+	- TAB
+
+
+Find words
+__________
+
+- /word
+- Enter
+- n to search the next word
+
+
+Copy and paste
+______________
+
+- One line
+	- yy
+	- (number of lines) yy
+
+- Multiple lines
+	- v
+	- j/k/l/h (Select the text)
+	- y
+	- p
+
+
+Comment Lines
+_____________
+
+- v
+- j/k/l/h
+- shift + i
+- #(for python) or --(for lua) or //(for C/C++)
+
+
+Changing to Lower case or Upper case
+____________________________________
+
+- v
+- j/k/l/h (Select the text)
+- u(Lower case) / U(Upper case)
+
+
+Record and implement the edit for multiple lines
+________________________________________________
+
+- qa (start the recording of editing)
+- Do the editing
+- q (stop the recording)
+- @a (to implement the macro on the line/word)
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+NVIM Key binding
+________________
+
+- To auto format code
+	- space g f
+
+- Code actions
+	- space c a
+
+- Code snippet definition
+	- g d
+
+- File neo-tree
+	- ctrl + n
+
+- Find files
+	- ctrl + p
+
+- Find word/grepping words
+	- space f g
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
